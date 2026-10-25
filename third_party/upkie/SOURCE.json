@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/upkie/upkie_description",
+  "revision": "94735fbe6137276a41de0ff4cc04d2e533fa9e33",
+  "files_sha256": {
+    "meshes/add-ons/camera_support.stl": "4e43d63538347b872b02efe3489a6b6f96d3b7ce24364953123eed7aad91e844",
+    "meshes/add-ons/handle.stl": "fc076d9eda14bfec406dc5947a90ef2606f9bfca8f50a4bdf9652f91eeb16343",
+    "meshes/ankle_stator.stl": "8d5f73fda4320b368f2eb7bfc4ddb71c95f8f5b6844e276e6a1b96c021859857",
+    "meshes/hollow_leg/hollow_femur.stl": "f32fca81489ff073d75314b7f08d6f669df9e1b51af76165c8aef5329a0e867b",
+    "meshes/hollow_leg/hollow_hip.stl": "7c3292d1a88590fd8eb3573c7e3a54e72807ccfdaad92171834c7010d9eb62f7",
+    "meshes/hollow_leg/hollow_knee.stl": "600d66e603caee3c4c647df5da21c4d458e801977bd615d919db1c4c040a78be",
+    "meshes/knee_stator.stl": "f4d9b97ac9685bb7f3d2a729b70a43343a3018e880957e98ceb0e672f086b1cd",
+    "meshes/mjbots/mj5208_rotor.stl": "04b79183888063891330540f4d2d9a787c486e954f18d9b5e8a0f0bcb05042e4",
+    "meshes/mjbots/mj5208_stator.stl": "1d9779dbb4119644a64a936a4b7ee1ae0a13952a3b6351880f76645f1d6314d5",
+    "meshes/mjbots/qdd100_horn.stl": "7a988e9a88650a8611653684ff10b1fd28e46138b70d35a7a81e1dc9b6c2741e",
+    "meshes/mjbots/qdd100_rotor.stl": "97c42adf2b594aa29b1a8e8ad5d4aaf9b8f22fb2517edafb1f080daa47930e42",
+    "meshes/mjbots/qdd100_stator.stl": "fdb504101f2b2e8b655bc27a1efbf826d448acec218867c401a159b37cc33b3c",
+    "meshes/mjbots/README.md": "0724e69f64597b54aef7c7cccf1f999c927f957fb726dd85e6a9ac27b9207d8f",
+    "meshes/wheel_hub.stl": "fd9892f2730d7dfb268da22499f029b1db169c1ec404a5fea73a8a65b2a35375",
+    "meshes/wheel_tire/README.md": "fc2bf9218ed76b7601f86e837f7c47767313c0ae94952bee160adda7fc2c1d82",
+    "meshes/wheel_tire/wheel_tire.stl": "4d9464715c9b068044fcd867c5e9a1cac644c3d3020b4b062d88fa9e8b10c9b0",
+    "urdf/upkie.urdf": "d15965215067276203599a850e5c7ebb319ed6815506f0a2721dae78abac2483",
+    "urdf/upkie_camera.urdf": "c03f4dd19a08b7f5b1e85cdf0fe061d377f8039ec2809e02879571d60775ece4"
+  }
+}

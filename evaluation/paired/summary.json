@@ -1,0 +1,34 @@
+{
+  "combined/lqi": {
+    "episodes": 200,
+    "successes": 121,
+    "wilson_95": [
+      0.5358834915928536,
+      0.6701589898679203
+    ],
+    "failures": {
+      "joint_speed_limit": 68,
+      "nonwheel_ground_contact:left_ankle_base_25": 4,
+      "nonwheel_ground_contact:right_ankle_base_55": 4,
+      "nonwheel_ground_contact:right_ankle_base_55,right_ankle_base_55": 3
+    },
+    "mean_successful_positive_work_j": 6.513819788306589,
+    "mean_successful_wheel_effort_nm_s": 1.62813439201733
+  },
+  "combined/lqi_ph": {
+    "episodes": 200,
+    "successes": 189,
+    "wilson_95": [
+      0.9042130012276914,
+      0.9690146582965411
+    ],
+    "failures": {
+      "nonwheel_ground_contact:left_ankle_base_25": 3,
+      "nonwheel_ground_contact:right_ankle_base_55": 3,
+      "nonwheel_ground_contact:right_ankle_base_55,right_ankle_base_55": 3,
+      "nonwheel_ground_contact:left_ankle_base_25,left_ankle_base_25": 2
+    },
+    "mean_successful_positive_work_j": 16.339793695993,
+    "mean_successful_wheel_effort_nm_s": 5.00924570069606
+  }
+}

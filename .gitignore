@@ -4,25 +4,26 @@ venv/
 env/
 __pycache__/
 *.py[cod]
-*$py.class
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# Build and coverage artifacts
+# Local runs, archives and generated reports
+/.local/
+/results/
+/graphify-out/
+/tmp/
+*.log
+*.tmp
+*.bak
+
+# Build and editor files
 build/
 dist/
 *.egg-info/
 .coverage
 htmlcov/
-
-# Local editor and operating-system files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Local logs and temporary files
-*.log
-*.tmp
-*.bak

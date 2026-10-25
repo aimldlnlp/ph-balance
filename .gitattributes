@@ -1,0 +1,14 @@
+# Preserve evaluation source and protocol bytes across platforms.
+/src/simulation/upkie*.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/experiments/upkie_3d_pilot.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/experiments/evaluate_upkie_3d.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/experiments/upkie_stress.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/experiments/refine_upkie_ph.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/experiments/audit_upkie_3d_native.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/experiments/freeze_upkie_stress.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/experiments/plan_upkie_refinement.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/experiments/reproduce_upkie_stress.py -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/assets/upkie/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+/evaluation/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+*.mp4 binary
+/third_party/** whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof

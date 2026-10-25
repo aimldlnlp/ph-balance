@@ -1,0 +1,45 @@
+{
+  "hybrid": {
+    "episodes": 200,
+    "successes": 200,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9811546736227335,
+      1.0
+    ],
+    "failures": {},
+    "successful_mean_wheel_effort": 0.8896061015547737
+  },
+  "lqr": {
+    "episodes": 200,
+    "successes": 200,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9811546736227335,
+      1.0
+    ],
+    "failures": {},
+    "successful_mean_wheel_effort": 0.8987073605778602
+  },
+  "combined": {
+    "episodes": 100,
+    "successes": 100,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9630065017930143,
+      1.0
+    ],
+    "failures": {},
+    "successful_mean_wheel_effort": 0.9103363839676336
+  },
+  "ablation": {
+    "common_success_pairs": 200,
+    "wheel_effort_reduction": 0.010127055170922827,
+    "paired_bootstrap_95": [
+      0.009555972914934357,
+      0.010699815563444253
+    ],
+    "point_hypothesis_met": false,
+    "caveat": "Effort restricted to paired successes; failures and completed horizons reported separately. No global stability claim."
+  }
+}

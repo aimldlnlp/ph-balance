@@ -1,0 +1,15 @@
+{
+  "combined/lqi_ph": {
+    "episodes": 200,
+    "successes": 199,
+    "wilson_95": [
+      0.9722262956021069,
+      0.9991168312843989
+    ],
+    "failures": {
+      "settling": 1
+    },
+    "mean_successful_positive_work_j": 9.127852494534494,
+    "mean_successful_wheel_effort_nm_s": 2.7805767610263183
+  }
+}

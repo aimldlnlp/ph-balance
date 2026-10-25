@@ -1,6 +1,5 @@
 """Controller boundaries for the PH-Balance experiments."""
 
-from .pid import PIDController
 from .port_hamiltonian import (
     HybridPortHamiltonianController,
     PortHamiltonianController,
@@ -16,7 +15,6 @@ from .protocols import Controller
 __all__ = [
     "Controller",
     "HybridPortHamiltonianController",
-    "PIDController",
     "PortHamiltonianController",
     "PortHamiltonianV2Controller",
     "PortHamiltonianV3Controller",
